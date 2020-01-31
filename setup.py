@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="s2v-extractor",
-    version="0.0.0",
+    name="s2v_extractor",
+    version="0.0.1",
     author="Shubham Dhanda",
     author_email="sdhandahr08@gmail.com",
     description="Python package extractoin value from string",
