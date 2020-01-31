@@ -14,7 +14,7 @@ from test import s2v
 df=pd.read_csv('test_data.csv')
 
 
-obj=t.s2v(df,["Memory","Age"])         
+obj=s2v(df,["Memory","Age"])         
               
 print(obj.extract())
 
